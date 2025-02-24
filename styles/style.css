@@ -8,7 +8,6 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
-
 .page {
   display: flex;
   flex-direction: column;
@@ -33,7 +32,7 @@
   top: 0;
   z-index: -1;
   border: var(--accent-color) solid 1px;
-  box-shadow: var(--shadow-property); 
+  box-shadow: var(--shadow-property);
 }
 
 .blocks-width {
@@ -90,12 +89,12 @@
   font-size: var(--main-font-title-size);
   padding: 6px 12px 4px 10px;
   display: inline-block;
-  text-shadow: var(--shadow-property); 
+  text-shadow: var(--shadow-property);
   border-block-end: var(--border);
 }
 
 .card-pic-sign {
-  position: relative; 
+  position: relative;
   inline-size: 100%;
   min-inline-size: 371px;
   block-size: clamp(23.188rem, 30.516vw + 16.035rem, 43.5rem);
@@ -318,8 +317,8 @@
   inline-size: 100%;
   block-size: 100%;
   top: 0;
-  left: 0; 
-  transform: scaleX(0);  
+  left: 0;
+  transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.5s ease-in-out;
 }
@@ -331,7 +330,7 @@
 .dialog-window {
   padding-block: 25px;
   padding-inline: 40px 36px;
-  inline-size: calc(100% - 34px); 
+  inline-size: calc(100% - 34px);
 }
 
 .dialog-window[open] {
