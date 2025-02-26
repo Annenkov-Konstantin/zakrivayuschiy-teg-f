@@ -4,17 +4,17 @@
     --main-font-size: 18px;
     --main-font-title-weight: bold;
     --main-font-text-weight: normal;
-    --accent-font: 'Press Start 2P';
+    --accent-font: "Press Start 2P";
     --accent-font-title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
     --accent-font-subtitle-size: clamp(0.875rem, 0.845vw + 0.677rem, 1.438rem);
     --blocks-width: calc(clamp(23.438rem, 30.516vw + 16.285rem, 43.75rem));
     --shadow-property: 0 4px 4px rgba(0, 0, 0, 0.25);
-    --border:  #000 solid 2px;
-    --text-stroke-property: rgb(255 255 255 / .5);
-    --main-color:  #fff;
+    --border: #000 solid 2px;
+    --text-stroke-property: rgb(255 255 255 / 0.5);
+    --main-color: #fff;
     --accent-color: #000;
     --heart-contour-color: black;
-    --heart-sparcs-color: #FF0000;
+    --heart-sparcs-color: #ff0000;
     --heart-core-color: white;
-    --heart-main-body-color: #FF0000;
-} 
+    --heart-main-body-color: #ff0000;
+}
