@@ -2,8 +2,8 @@
 :root {
     --main-font: Inter;
     --main-font-size: 18px;
-    --main-font-title-weight: bold;
-    --main-font-text-weight: normal;
+    --main-font-title-wght: 700;
+    --main-font-text-wght: 400;
     --accent-font: "Press Start 2P";
     --accent-font-title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
     --accent-font-subtitle-size: clamp(0.875rem, 0.845vw + 0.677rem, 1.438rem);

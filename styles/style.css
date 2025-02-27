@@ -77,8 +77,7 @@
   font-size: var(--main-font-size);
   padding: 4px 12px 4px 10px;
   display: inline-block;
-  text-shadow: var(--shadow-property);
-  font-variation-settings: "wght" var(--main-font-title-weight);
+  font-variation-settings: "wght" var(--main-font-title-wght);
 }
 
 .card-pic-sign {
@@ -157,7 +156,7 @@
   padding-inline: 25px 25px;
   padding-block-start: 3px;
   font-size: var(--main-font-size);
-  font-variation-settings: "wght" var(--main-font-text-weight);
+  font-variation-settings: "wght" var(--main-font-text-wght);
   line-height: 21px;
   letter-spacing: 0;
 }
